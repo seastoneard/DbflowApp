@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <Button
+        android:id="@+id/db_btn0"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="添加单个(事物回滚)" />
+
+    <Button
+        android:id="@+id/db_btn1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="大数据添加(事物回滚)" />
+
+    <Button
+        android:id="@+id/db_btn2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="大数据添加(事物回滚+异步)" />
+
+    <Button
+        android:id="@+id/db_btn3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="删除|编辑(事物回滚)" />
+
+    <Button
+        android:id="@+id/db_btn4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="查询(事物回滚)" />
+
+    <Button
+        android:id="@+id/db_btn5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="查询(异步+事物回滚)" />
+
+
+</LinearLayout>

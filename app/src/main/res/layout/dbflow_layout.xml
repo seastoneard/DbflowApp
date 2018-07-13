@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/db_btn0"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="添加(基于BaseModel)"/>
+
+
+    <Button
+        android:id="@+id/db_btn1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="修改(基于BaseModel)"/>
+    <Button
+        android:id="@+id/db_btn2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="修改(no-BaseModel)"/>
+
+    <Button
+        android:id="@+id/db_btn3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="删除-基于BaseModel"/>
+
+    <Button
+        android:id="@+id/db_btn4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="删除-no-BaseModel"/>
+
+    <Button
+        android:id="@+id/db_btn5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="查询(1)"/>
+    <Button
+        android:id="@+id/db_btn6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="升降序查询(OrderBy)"/>
+
+    <Button
+        android:id="@+id/db_btn7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="分组查询(GroupBy)"/>
+    <Button
+        android:id="@+id/db_btn8"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="分页查询(Page)"/>
+    <Button
+        android:id="@+id/db_btn9"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="异步查询"/>
+
+
+
+</LinearLayout>
